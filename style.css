@@ -1,13 +1,33 @@
+/* Color */
+:root {
+  --primary: #8f37b1;
+  --secondary: #624343;
+  --tertiary: #36123f;
+  --dark: #212529;
+}
+
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #212529;
+  color: white;
+}
+
+  #about {
+  background-color: var(--primary);
+  color: white;
+  /* margin-top: -5px;
+  padding: 0; */
 }
 
 #projects {
-  background-color: #e2edff;
+  background-color: var(--dark);
 }
 
-section {
-  padding-top: 5rem;
+.text-center, .col {
+  color :white;
 }
 
+#contact {
+  background-color: var(--primary);
+  color: white;
+}
