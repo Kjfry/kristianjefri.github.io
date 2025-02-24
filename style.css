@@ -31,3 +31,14 @@
   background-color: var(--primary);
   color: white;
 }
+.gallery {
+  background-color: var(--dark);
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
