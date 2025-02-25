@@ -12,6 +12,21 @@
   color: white;
 }
 
+.icon {
+  font-size: 40px; /* Ubah ukuran ikon */
+  color: #ffffff; /* Warna default */
+  transition: color 0.3s ease;
+}
+.icon:hover {
+  color: #007bff; /* Warna saat hover */
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Jarak antar ikon */
+}
+
   #about {
   background-color: var(--primary);
   color: white;
@@ -23,6 +38,10 @@
   background-color: var(--dark);
 }
 
+section {
+  padding-top: 5rem;
+}
+
 .text-center, .col {
   color :white;
 }
@@ -32,7 +51,7 @@
   color: white;
 }
 .gallery {
-  background-color: var(--dark);
+  background-color: var(--primary);
 }
 
 .gallery-img {
